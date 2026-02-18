@@ -1,0 +1,109 @@
+/*
+Author: Shah Alom
+Date: 18 February 2026
+File Name: style.css
+*/
+
+/* CSS Reset */
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body {
+    background-color: #000;
+    /* Black background */
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+header {
+    width: 25%;
+    float: left;
+}
+
+
+nav {
+    width: 70%;
+    float: right;
+    margin: 5em 3em 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+main {
+    clear: left;
+    background-color: #ffffff;
+    padding: 2%;
+    font-size: 1.25em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #ffffff;
+    padding: 1em;
+}
+
+
+footer p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+#contact {
+    text-align: center;
+}
+
+#contact a {
+    color: #666600;
+    text-decoration: none;
+}
+
+
+.action {
+    font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
+}
